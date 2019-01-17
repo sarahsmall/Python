@@ -1,7 +1,7 @@
 import sys
 def main():
 
-	#get user 
+	
 	thisdict =	{
 	  "a": ".-",
 	  "b": "-...",
@@ -40,11 +40,5 @@ def main():
 		for i in x:
 			sys.stdout.write(thisdict[i])
 		sys.stdout.write(" ")
-
-
-
-	
-
-	#print (thisdict["a"]);
 
 main()
